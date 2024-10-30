@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation", "1. Presentation", "{65ED0F72-258C-42B9-BF1A-0C152F9C4E21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Business", "2. Business", "{50A02ECA-149B-46F4-B0F5-4B0B597696F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Infrastructure", "3. Infrastructure", "{EC8866AB-2D21-4F9A-9323-2CD92F26B425}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prova.MarQ.Domain", "2. Business\Prova.MarQ.Domain\Prova.MarQ.Domain.csproj", "{BCE4CD6C-2F11-4644-9EE8-3A87D24C87BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prova.MarQ.Infra", "3. Infrastructure\Prova.MarQ.Infra\Prova.MarQ.Infra.csproj", "{BC63C732-60D2-4922-BC4B-7CDF7B1E5D11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prova.MarQ.API", "1. Presentation\Prova.MarQ.API\Prova.MarQ.API.csproj", "{7BC7ED65-F98F-48F5-9D9B-3155B06BF86B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCE4CD6C-2F11-4644-9EE8-3A87D24C87BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE4CD6C-2F11-4644-9EE8-3A87D24C87BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE4CD6C-2F11-4644-9EE8-3A87D24C87BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE4CD6C-2F11-4644-9EE8-3A87D24C87BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC63C732-60D2-4922-BC4B-7CDF7B1E5D11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC63C732-60D2-4922-BC4B-7CDF7B1E5D11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC63C732-60D2-4922-BC4B-7CDF7B1E5D11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC63C732-60D2-4922-BC4B-7CDF7B1E5D11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BC7ED65-F98F-48F5-9D9B-3155B06BF86B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC7ED65-F98F-48F5-9D9B-3155B06BF86B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC7ED65-F98F-48F5-9D9B-3155B06BF86B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC7ED65-F98F-48F5-9D9B-3155B06BF86B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BCE4CD6C-2F11-4644-9EE8-3A87D24C87BF} = {50A02ECA-149B-46F4-B0F5-4B0B597696F9}
+		{BC63C732-60D2-4922-BC4B-7CDF7B1E5D11} = {EC8866AB-2D21-4F9A-9323-2CD92F26B425}
+		{7BC7ED65-F98F-48F5-9D9B-3155B06BF86B} = {65ED0F72-258C-42B9-BF1A-0C152F9C4E21}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {417AD228-9216-42CD-8ADF-93B0F205CD72}
+	EndGlobalSection
+EndGlobal

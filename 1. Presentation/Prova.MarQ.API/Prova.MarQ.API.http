@@ -1,0 +1,6 @@
+@Prova.MarQ.API_HostAddress = http://localhost:5081
+
+GET {{Prova.MarQ.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
