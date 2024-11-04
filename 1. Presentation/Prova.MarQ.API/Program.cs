@@ -5,7 +5,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Configurar o DbContext com a string de conexão
 builder.Services.AddDbContext<ProvaMarqDbContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"),
+    b => b.MigrationsAssembly("Prova.MarQ.Infra")
+    ));
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
