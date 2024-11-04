@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prova.MarQ.Infra", "3. Infr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prova.MarQ.API", "1. Presentation\Prova.MarQ.API\Prova.MarQ.API.csproj", "{7BC7ED65-F98F-48F5-9D9B-3155B06BF86B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prova.MarQ.Tests", "Prova.MarQ.Tests\Prova.MarQ.Tests.csproj", "{3F35C2EC-F164-4F1C-BD72-6493FBE148C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7BC7ED65-F98F-48F5-9D9B-3155B06BF86B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BC7ED65-F98F-48F5-9D9B-3155B06BF86B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BC7ED65-F98F-48F5-9D9B-3155B06BF86B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F35C2EC-F164-4F1C-BD72-6493FBE148C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F35C2EC-F164-4F1C-BD72-6493FBE148C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F35C2EC-F164-4F1C-BD72-6493FBE148C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F35C2EC-F164-4F1C-BD72-6493FBE148C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
